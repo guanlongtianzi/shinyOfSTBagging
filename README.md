@@ -1,6 +1,6 @@
 # shinyOfSTBagging
 基于Bagging的自学习分类算法，shiny应用，使用到了`shiny`、`DMwR`、`shinyAce`、`rmarkdown`、`ggplot2`、`gridExtra`、`knitr`、`RWeka`等`R`package，使用方法为：
-```s
+```R
 if(!require(shiny)) {
   install.packages(pkgs = 'shiny',quiet = TRUE)
   require(shiny)
